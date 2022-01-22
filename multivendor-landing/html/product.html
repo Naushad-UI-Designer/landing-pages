@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS -->
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <title>Ksolves</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="d-lg-flex justify-content-lg-between py-3">
+                <div class="d-flex flex-lg-row flex-column align-items-center">
+                    <img src="./images/ks-logo.png">
+                </div>
+                <div class="d-flex justify-content-lg-end justify-content-center align-items-center">
+                    <nav>
+                        <ul class="list-unstyled d-flex m-0">
+                            <li><a href="javascript:void(0);">Clothing</a></li>
+                            <li><a href="javascript:void(0);">Women</a></li>
+                            <li><a href="javascript:void(0);">Men</a></li>
+                            <li><a href="javascript:void(0);">Footwear</a></li>
+                            <li><a href="javascript:void(0);">Electronics</a></li>
+                            <li><a href="javascript:void(0);">Traning</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="search mr-3 position-relative">
+                        <img src="images/search.png">
+                        <input type="text" placeholder="Search" class="d-none position-absolute">
+                    </div>
+                    <div class="cart position-relative">
+                        <a href=""><img src="./images/cart.png"><span class="cart-value position-absolute">0</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="header-banner">
+        <div class="vendor-banner"><img src="./images/product-bg.svg"></div>
+        <div class="container">
+            <div class="vendor-details d-lg-flex justify-content-lg-between">
+                <div class="d-flex flex-lg-row flex-column align-items-center">
+                    <div class="logo"><img src="./images/seller2.png"></div>
+                    <div class="name mt-3 ml-3">
+                        <h1>Inbound Tshirt</h1>
+                        <div class="address d-flex">
+                            <span class="mr-2"><img src="./images/location.svg"></span>
+                            <span class="mr-3">Florida USA</span>
+                            <span class="mr-2"><img src="./images/report.svg"></span>
+                            <span>Report Seller</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="vendor-social-media d-flex justify-content-lg-end justify-content-center ">
+                    <ul class="list-unstyled d-flex">
+                        <li>
+                            <a href="javascript:void(0);"><img src="./images/facebook.svg"></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><img src="./images/twitter.svg"></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><img src="./images/instagram.svg"></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><img src="./images/pinterest.svg"></a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><img src="./images/linkedin.svg"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content">
+        <div class="container">
+            <div class="tab my-lg-5 mb-sm-4 text-center">
+                <button class="tablinks btn active" onclick="open(event, 'product')">Products
+                  <small>(30)</small></button>
+                  <button class="tablinks btn" onclick="open(event, 'rating')">Rating <small>(4.5)</small></button>
+                  <button class="tablinks btn" onclick="open(event, 'orders')">Orders <small>(65)</small></button>
+              </div>
+          </div>
+          <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="left-sidebar light-bg">
+                        <div class="nav">
+                            <ul class="list-unstyled w-100">
+                                <li>
+                                    <a href="javascript:void(0);">About</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Shipping</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Return</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Privacy Policy</a>
+                                </li>
+                                <li class="label">Categories</li>
+                                <li>
+                                    <a href="javascript:void(0);">Bestseller Products (18)</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">New Products (1)</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Sale Products (6)</a>
+                                </li>
+                                <li class="label">Products Types</li>
+                                <li>
+                                    <a href="javascript:void(0);">Type (18)</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">New Type (1)</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Sale Products (6)</a>
+                                </li>
+                                <li class="label">Vendors</li>
+                                <li>
+                                    <a href="javascript:void(0);">Vendor (18)</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Vendor (1)</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Vendor (6)</a>
+                                </li>
+                                <li class="label">Colours</li>
+                                <li class="color-filter">Red</li>
+                                <li class="color-filter">Green</li>
+                                <li class="color-filter">Yellow</li>
+                                <li class="color-filter">Blue</li>
+                                <li class="color-filter">White</li>
+                                <li class="color-filter">Grey</li>
+                                <li class="color-filter">Black</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div id="product" class="tabcontent active  m-lg-0 my-3">
+                        <div class="product-filter">
+                            <div class="d-flex justify-content-md-between flex-column flex-md-row align-items-center">
+                                <div class="view-filter">
+                                    <a href="#" class="card-view mr-2">
+                                        <img src="./images/card-view.svg">
+                                    </a>
+                                    <a href="#" class="list-view">
+                                        <img src="./images/list-view.svg">
+                                    </a>
+                                </div>
+                                <div class="sortby d-flex align-items-center">
+                                    <span>Sort By</span>
+                                    <select>
+                                      <option>Best Selling</option>
+                                      <option>Price low to high</option>
+                                      <option>Price high to low</option>
+                                  </select>
+                              </div>
+                              <div class="filterdetails d-flex">
+                                Showing 1-9 of 30 result
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-listing  my-3">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="product">
+                                <img src="./images/p1.png">
+                                <div class="product-details">
+                                    <div class="product-name">Normal Short Sleeves T-Shirt</div>
+                                    <div class="product-price">$114.00</div>
+                                    <div class="star-rating d-flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="product">
+                                <img src="./images/image.png">
+                                <div class="product-details">
+                                    <div class="product-name">Normal Short Sleeves T-Shirt</div>
+                                    <div class="product-price">$114.00</div>
+                                    <div class="star-rating d-flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="product">
+                                <img src="./images/p2.png">
+                                <div class="product-details">
+                                    <div class="product-name">Normal Short Sleeves T-Shirt</div>
+                                    <div class="product-price">$114.00</div>
+                                    <div class="star-rating d-flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="product">
+                                <img src="./images/p3.png">
+                                <div class="product-details">
+                                    <div class="product-name">Normal Short Sleeves T-Shirt</div>
+                                    <div class="product-price">$114.00</div>
+                                    <div class="star-rating d-flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="product">
+                                <img src="./images/p4.png">
+                                <div class="product-details">
+                                    <div class="product-name">Normal Short Sleeves T-Shirt</div>
+                                    <div class="product-price">$114.00</div>
+                                    <div class="star-rating d-flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="product">
+                                <img src="./images/p5.png">
+                                <div class="product-details">
+                                    <div class="product-name">Normal Short Sleeves T-Shirt</div>
+                                    <div class="product-price">$114.00</div>
+                                    <div class="star-rating d-flex">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11.317" height="10.845" viewBox="0 0 11.317 10.845">
+                                            <path id="star"
+                                            d="M11.288,4.59a.6.6,0,0,0-.518-.414L7.5,3.88,6.212.856a.6.6,0,0,0-1.106,0L3.814,3.88l-3.267.3A.6.6,0,0,0,.206,5.229L2.675,7.394,1.947,10.6a.6.6,0,0,0,.895.65L5.659,9.567l2.817,1.684a.6.6,0,0,0,.9-.65L8.642,7.394l2.469-2.165a.6.6,0,0,0,.176-.639Zm0,0"
+                                            transform="translate(0 -0.491)" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-pagination">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="javascript:void(0);"><img src="./images/left-arrow.png"></a>
+                        <a href="#" class="active">1</a>
+                        <a href="javascript:void(0);">2</a>
+                        <a href="javascript:void(0);">3</a>
+                        <a href="javascript:void(0);">4</a>
+                        <a href="javascript:void(0);"><img src="./images/right-arrow.png"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</section>
+<footer class="pt-5 light-bg mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="description">
+                    <img class="mb-3" src="./images/ks-logo.png">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    <div class="d-flex mb-2">
+                        <img class="mr-2" src="./images/location.svg">
+                        <span>The Barn, Ullenhall, Henley in Arden USA</span>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <img class="mr-2" src="./images/phone.svg">
+                        <span>+198 7654 321, +198 7654 321</span>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <img class="mr-2" src="./images/email.svg">
+                        <span>companyemail@email.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <h3 class="footer-title">Information</h3>
+                <ul class="list-unstyled">
+                    <li><a href="javascript:void(0);">About us</a></li>
+                    <li><a href="javascript:void(0);">Privacy Policy</a></li>
+                    <li><a href="javascript:void(0);">Terms & Conditions</a></li>
+                    <li><a href="javascript:void(0);">Returns</a></li>
+                    <li><a href="javascript:void(0);">Gift Certificates</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <h3 class="footer-title">Follow Us</h3>
+                <ul class="list-unstyled d-flex social-media">
+                    <li>
+                        <a href="javascript:void(0);" class="facebook ml-0"><img src="./images/facebook.png"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="twitter"><img src="./images/twitter.png"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="instagram"><img src="./images/instagram.png"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="pinterest"><img src="./images/pinterest.png"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="linkedin"><img src="./images/linkedin.png"></a>
+                    </li>
+                </ul>
+                <h3 class="footer-title">Follow Us</h3>
+                <div class="subscribe position-relative">
+                    <input type="text" placeholder="youremail@email.com" class="w-100">
+                    <button class="btn bg-primary position-absolute text-uppercase">subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright dark-bg mt-5">
+        <div class="container">
+            <div class="text-center py-2">
+                Copyright © 2019 YourCompany . All Right Reserved.
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    function open(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+</body>
+
+</html>
